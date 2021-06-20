@@ -1,6 +1,7 @@
 ---
  - hosts: all
-   user: root
+   user: centos
+   become: yes
    tasks:
     - name: install httpd package
       yum:
