@@ -1,5 +1,5 @@
 ---
- - hosts: server
+ - hosts: all
    user: root
    tasks:
     - name: install httpd package
